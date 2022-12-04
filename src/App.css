@@ -1,9 +1,9 @@
-.App {
-  text-align: center;
+#root {
+  color: white !important;
 }
 
-.App-header {
-  background-color: #282c34;
+#main-container {
+    background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -13,15 +13,10 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.semi-opaque {
+  opacity: .5;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-capitalize {
+  color: magenta !important;
 }

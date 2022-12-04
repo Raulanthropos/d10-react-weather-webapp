@@ -6,11 +6,9 @@ import Weather from './components/Weather'
 function App() {
   return (
     <>
-      <Container fluid className="d-flex justify-content-center" id="fullsize">
+      <Container fluid className="d-flex justify-content-center" id="main-container">
         <Container className="shadow-lg p-3 mb-5 bg-body rounded" id="main">
-          <div>
             <Weather />
-          </div>
         </Container>
       </Container>
     </>
