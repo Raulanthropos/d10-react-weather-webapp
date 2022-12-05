@@ -46,6 +46,7 @@ const Weather = () => {
     <Container>
       <Row className="mt-2">
         <Col xs={10} className="mx-auto">
+          <h1 className="text-center mb-3">Weather App</h1>
           <Form onSubmit={handleSubmit}>
             <Form.Control
               type="search"
