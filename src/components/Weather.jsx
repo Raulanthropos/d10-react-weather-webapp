@@ -2,8 +2,8 @@ import { useState } from "react";
 import { Container, Row, Col, Form } from "react-bootstrap";
 
 const Weather = () => {
-  const [input, setInput] = useState(""); // base state, new state to change on (string) ✔️
-  const [cities, setCities] = useState(""); // base state, new state to change on (array = Data (Fetch)) ✔️
+  const [input, setInput] = useState("");
+  const [cities, setCities] = useState("");
   const [isActive, setIsActive] = useState(false);
 
   const whatIsTheWeatherLike = () => {
