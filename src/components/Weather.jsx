@@ -95,7 +95,7 @@ const Weather = () => {
                   <h4 className="text-capitalize">
                     {isActive? cities?.weather[0].description : ""}
                   </h4>
-                  <img src={isActive? whatIsTheWeatherLike() : ""} alt="" width={100} height={100}/>
+                  <img src={isActive? whatIsTheWeatherLike() : ""} alt={isActive? cities?.weather[0].description : ""} width={100} height={100}/>
 
                 </div>
                 <div>
