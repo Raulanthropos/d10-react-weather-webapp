@@ -13,6 +13,8 @@ const Weather = () => {
         return "https://cdn-icons-png.flaticon.com/512/116/116251.png"
     } else if (cities.weather[0].main.includes("now")){
         return "https://cdn-icons-png.flaticon.com/512/3915/3915582.png"
+    } else if((cities.weather[0].main.includes("ist"))) {
+      return "https://cdn-icons-png.flaticon.com/512/4005/4005901.png"
     } else {
         return "https://cdn-icons-png.flaticon.com/512/3222/3222794.png"
     }
@@ -86,7 +88,7 @@ const Weather = () => {
                     <h3 className="mx-2">{cities?.main?.humidity}%</h3>
                   </div>
                   <h5 className="semi-opaque mt-2">
-                    Feels like: {cities?.main?.feels_like}°C
+                    Real feel: {cities?.main?.feels_like}°C
                   </h5>
                   <h4 className="text-capitalize">
                     {isActive? cities?.weather[0].description : ""}
