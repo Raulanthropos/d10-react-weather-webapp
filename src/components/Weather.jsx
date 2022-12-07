@@ -15,6 +15,8 @@ const Weather = () => {
         return "https://cdn-icons-png.flaticon.com/512/3915/3915582.png"
     } else if((cities.weather[0].main.includes("ist"))) {
       return "https://cdn-icons-png.flaticon.com/512/4005/4005901.png"
+    } else if (cities.weather[0].main.includes("Fog")) {
+      return "https://cdn-icons-png.flaticon.com/512/2930/2930021.png"
     } else {
         return "https://cdn-icons-png.flaticon.com/512/3222/3222794.png"
     }
