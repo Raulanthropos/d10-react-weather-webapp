@@ -11,7 +11,7 @@ https://api.openweathermap.org/data/2.5/weather?q=
 * Allows users to search for different locations and view their current weather  
 
 ### How to use
-* Enter a location in the search field and press enter.
+* Enter a location in the search field and press <kbd>Enter</kbd>.
 * View the current weather information and corresponding image for the selected location.
 Example
 For example, if the current weather in London is scattered clouds, the app will display an image of clouds along with the current temperature, real feel, and humidity.
